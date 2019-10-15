@@ -1,0 +1,49 @@
+
+
+.App {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  font-family: "Times New Roman", Times, serif;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.article-date{
+  flex: 0 0 13%;
+  margin-inline-start: 3%;
+  color: grey;
+  font-family: "nyt-franklin",helvetica,arial,sans-serif;
+}
+
+.article-content{
+  flex: 0 0 50%;
+  border-bottom: 6px black;
+  width: 600px;
+}
+
+.article-content h3{
+  font-family: "nyt-cheltenham",georgia,'times new roman',times,serif;
+}
+
+.article-content h5 {
+  color: grey;
+  font-family: "nyt-franklin",helvetica,arial,sans-serif;
+}
+.article-image{
+  flex: 0 0 47%;
+}
+
+.article-image img{
+  height: 200px;
+  padding: 30px;
+}
+
